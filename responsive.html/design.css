@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url('bg-intro-desktop.png');
+    background-color: rgb(235, 109, 109);
+    color: white;
+    display: flex;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first{
+    background-color: rgb(107, 65, 158);
+    border-radius: 0px;
+
+}
+.second{
+    background-color: white;
+    padding-top: 20px;
+   
+}
+.third{
+    color: grey;
+}
+.fourth{
+    padding-top: 100px;
+    padding-right: 35px;
+}
+.fifth{
+    text-align: center;
+    padding-right: 50px;
+}
+@media screen and (max-width:1440px){
+    .body{
+        width: 50%;
+    }
+}
+@media screen and (max-width:375px){
+    .body{
+        width: 100%;
+    }
+}
+
